@@ -58,26 +58,35 @@ class Nav extends Component {
                <li className={location.pathname === '/' ? 'active' : null}>
           <Link to="/" >
             <i ><img src={location.pathname === '/' ? HOME_WHITE : HOME}></img> </i>
-             <p className="poppins_regular">Register Smart Card</p>
+             <p className="poppins_regular">Dashboard</p>
            </Link>
          </li>
         
-         <li className={location.pathname === '/a' ? 'active' : null}>
-          <Link to="/a" >
-            <i ><img src={location.pathname === '/a' ? ManageBookActive : ManageBook}></img> </i>
-             <p className="poppins_regular">Smart Card Types</p>
+         <li className="heading">
+          <span className="poppins_semibold" >Salon Management</span>
+         </li>
+         <li className={location.pathname === '/detail' ? 'active' : null}>
+          <Link to="/detail" >
+            <i ><img src={location.pathname === '/detail' ? ManageBookActive : ManageBook}></img> </i>
+             <p className="poppins_regular">Details</p>
            </Link>
          </li>
-         <li className={location.pathname === '/b' ? 'active' : null}>
-          <Link to="/b" >
-            <i ><img src={location.pathname === '/b' ? ManageBookActive : ManageBook}></img> </i>
-             <p className="poppins_regular">All Smart Card</p>
+         <li className={location.pathname === '/service' ? 'active' : null}>
+          <Link to="/service" >
+            <i ><img src={location.pathname === '/service' ? ManageBookActive : ManageBook}></img> </i>
+             <p className="poppins_regular">Services</p>
            </Link>
          </li>
-         <li className={location.pathname === '/c' ? 'active' : null}>
-          <Link to="/c" >
-            <i ><img src={location.pathname === '/c' ? AddNewBookActive : AddNewBook}></img> </i>
-             <p className="poppins_regular">Smart Card Reports</p>
+         <li className={location.pathname === '/product' ? 'active' : null}>
+          <Link to="/product" >
+            <i ><img src={location.pathname === '/product' ? AddNewBookActive : AddNewBook}></img> </i>
+             <p className="poppins_regular">Product</p>
+           </Link>
+         </li>
+         <li className={location.pathname === '/onlineapartment' ? 'active' : null}>
+          <Link to="/onlineapartment" >
+            <i ><img src={location.pathname === '/onlineapartment' ? AddNewBookActive : AddNewBook}></img> </i>
+             <p className="poppins_regular">Online Appointments</p>
            </Link>
          </li>
 

@@ -19,17 +19,10 @@ import CreateGrants from '../CreateGrants/CreateGrants'
 import CreateFundraising from '../CreateFundraising/CreateFundraising'
 
 
-
-
-
-
-
-
-
-
-
-
-
+import Detail from '../SaloonManagement/Detail'
+import OnlineApartment from '../SaloonManagement/OnlineApartment'
+import Product from '../SaloonManagement/product'
+import Service from '../SaloonManagement/Service'
 import PrivateRoute from '../../utils/PrivateRoute';
  
 const Main = ({
@@ -57,9 +50,13 @@ const Main = ({
           <PrivateRoute   exact path="/" component={Dashboard} />
           <PrivateRoute   exact path="/creategrants" component={CreateGrants} /> 
           <PrivateRoute   exact path="/createfundraising" component={CreateFundraising} /> 
+          <PrivateRoute   exact path="/detail" component={Detail} /> 
+          <PrivateRoute   exact path="/product" component={Product} /> 
+          <PrivateRoute   exact path="/service" component={Service} /> 
+          <PrivateRoute   exact path="/onlineapartment" component={OnlineApartment} /> 
 
 
-
+          
           
           
           
