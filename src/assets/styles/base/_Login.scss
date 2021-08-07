@@ -1,0 +1,60 @@
+.BackgroundImg{
+    height: 100vh;
+}
+.LoginContainer{
+    background: white;
+    padding: 40px ;
+    height: 100%;
+}
+.LoginHeading{
+    font-size: 23px;
+    margin-top: 42px;
+
+}
+.LoginText{
+    font-size: 13px;
+}
+.inputContainer{
+    padding: 50px;
+
+}
+.LoginInput{
+    height: 41px;
+    width: 100%;
+    border: none;
+    box-shadow: 0px 2px 4px 2px #d3d3d3;
+    padding-left: 15px;
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.Loginbtn{
+    height: 54px;
+    background: #333533;
+    color: white;
+    width: 44%;
+    font-weight: 700;
+    font-family: 'Poppins';
+    border-radius: 60px;
+    margin-top: 23px;
+    font-size: 19px;
+}
+.Loginbtn:hover{
+    background-color: white;
+    border: 2px solid #333533;
+    color: #333533;
+
+}
+.Loginbtn:focus{
+    outline: none;
+}
+.Hover{
+    opacity: 1;
+}
+.Hover:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.red{
+    color: red;
+}

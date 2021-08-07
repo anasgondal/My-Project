@@ -1,0 +1,173 @@
+.CreateTabsContainer{
+    padding: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+.tabs{
+    height: 100px;
+    background: #FDFDFD;
+    padding: 15px;
+    box-shadow: 0px 0px 6px 3px #dfdfdf;
+}
+.tabs:hover{
+    border-bottom: 2px solid #05401E;
+    box-shadow: 0px 0px 4px 2px #dfdfdf;
+    cursor: pointer;
+    background: white;
+
+
+
+}
+.tabsActive{
+    background: white;
+    border-bottom: 2px solid #05401E;
+    box-shadow: 0px 0px 4px 2px #dfdfdf;
+    cursor: pointer;
+}
+.Heading{
+    font-size: 18px;
+    color: #0D1B2A;
+    opacity: 0.35;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.TabsHeading{
+    font-size: 18px;
+    color: #0D1B2A;
+}
+.TabsText{
+    font-size: 12px;
+    color: #0D1B2A;
+    opacity: 0.8;
+
+
+}
+.TabsWhiteContainer{
+    background-color: white;
+    padding: 36px 20px 35px 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.GrantInfoHeading{
+    font-size: 15px;
+}
+.GrantInfoText{
+    font-size: 12px;
+}
+.GrantInfoInputText{
+    font-size: 12px;
+}
+.GrantInfoInputText{
+    font-size: 12px;
+}
+.pkrText{
+    font-size: 33px;
+    color: #05401E;
+
+}
+.PriceInput{
+    color: #05401e;
+    padding-left: 15px;
+    border: 2px solid #05401E;
+    height: 65px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 12px;
+    font-family: 'Poppins';
+    opacity: 1;
+    font-size: 33px;
+    letter-spacing: 12px;
+
+}
+.PriceInput:hover{
+    border: 3px solid #05401E;
+
+}
+.PriceInput:focus{
+    border: 3px solid #05401E;
+    outline: none;
+
+}
+.GrantInfoInput{
+    padding-left: 15px;
+    border: 1px solid #CDD0D3;
+    height: 35px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Poppins';
+    opacity: 0.7;
+}
+.GrantInfoInput1{
+    padding-left: 15px;
+    border: 1px solid #CDD0D3;
+    background: #F3F3F3;
+    height: 35px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Poppins';
+    opacity: 0.7;
+}
+
+.GrantInfoTextArea{
+    padding-left: 15px;
+    border: 1px solid #CDD0D3;
+    height: 120px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Poppins';
+    opacity: 0.7;
+}
+.GrantInfoInput:focus{
+    outline: none;
+    border: 2px solid #CDD0D3;
+
+}
+.GrantInfoTextArea:focus{
+    outline: none;
+    border: 2px solid #CDD0D3;
+}
+.GrantInfoInputBtn{
+    background-color: #A8ACB2;
+}
+.GrantInfobtn{
+    background: #A8ACB2;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border: none;
+    height: 25px;
+    width: 138px;
+    font-size: 11px
+}
+.Nextbtn{
+    background: #A8ACB2;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border: none;
+    height: 35px;
+    width: 188px;
+    font-size: 11px
+}
+.Nextbtn:focus{
+    outline: none;
+}
+.Searchbtn{
+    background: #A8ACB2;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    border: none;
+    height: 35px;
+    width: 110px;
+    position: absolute;
+    font-size: 11px;
+    right: 15px;
+}
+.Searchbtn:focus{
+    outline: none;
+}

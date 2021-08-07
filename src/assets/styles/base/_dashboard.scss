@@ -1,0 +1,171 @@
+.DashbordContainer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.AttachCircle{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background: #3BBE44;
+}
+.LoadCircle1{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #A8ACB2;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.LoadCircle2{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #0D1B2A;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.AttachTexT{
+    color: #ACACAC;
+    font-size: 13px;
+}
+.TopCard{
+    height: 97px;
+    width: 100%;
+    border-radius: 14px;
+    padding: 13px 8px 13px 8px;
+
+}
+.TotalGrants{
+    background: #C84545;
+    color: white;
+
+}
+.TotalVerified{
+    background: #305399;
+    color: white;
+
+}
+.TotalFunds{
+    background: #3BBE44;
+    color: white;
+
+}
+.TotalDonar{
+    background: #9B9B9B;
+    color: white;
+
+}
+.TopCardCircle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: white;
+}
+.TopCardText {
+    font-size: 11px;
+    margin: 0px 0px 0px 13px;
+}
+.TopCardPrice{
+    font-size: 26px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+.TopCardIcon{
+    width: 15px;
+    margin-left: 5px;
+}
+.ChartCard{
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+.ChartCardHeading{
+    color: #05401E;
+    opacity: 0.7;
+    font-size: 15px;
+    margin: 0px;
+
+}
+.ChartCardSeeAll{
+    color: #0D1B2A;
+    opacity: 0.6;
+    font-size: 12px;
+    margin: 0px;
+}
+.ChartCardSeeAll:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.piechart{
+    height: 180px;
+    width: 180px;
+}
+.piechartSindh{
+    height: 12px;
+    width: 12px;
+    background-color: #17683A;
+}
+.piechartPunjab{
+    height: 12px;
+    width: 12px;
+    background-color: #CDD9D2;
+}
+.piechartBalochistan{
+    height: 12px;
+    width: 12px;
+    background-color: #5A5A5A;
+}
+.piechartKPK{
+    height: 12px;
+    width: 12px;
+    background-color: #9B9B9B;
+}
+.piechartFATA{
+    height: 12px;
+    width: 12px;
+    background-color: #05401E;
+}
+.provinceText{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #0D1B2A;
+    opacity: 0.7;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+//Disbursement 
+.DisbursementText{
+    font-size: 12px;
+    color: #0D1B2A;
+    opacity: 0.6;
+}
+.DisbursementSelect{
+    
+    font-size: 12px;
+    color: #0D1B2A;
+    opacity: 0.6;
+    font-weight: 500;
+    font-family: 'Poppins';
+    border: none;
+    position: absolute;
+    bottom: 34px;
+
+}
+.plusIcon{
+    height: 50px;
+    margin-top: 116px;
+}
+.plusIcon:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.NewGrantText{
+    font-size: 16px;
+    color: #0D1B2A;
+    opacity: 0.6;
+}
