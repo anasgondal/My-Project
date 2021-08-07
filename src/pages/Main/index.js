@@ -45,7 +45,7 @@ const Main = ({
         <SideBar />
 
         <div className="main-panel">
-          {/* <Header /> */}
+          <Header />
         
           <PrivateRoute   exact path="/" component={Dashboard} />
           <PrivateRoute   exact path="/creategrants" component={CreateGrants} /> 
