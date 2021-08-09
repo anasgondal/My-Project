@@ -1,0 +1,159 @@
+.detail-section{
+    width: 95%;
+    height: 620px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    width: 20%;
+    height: 40px;
+    background-color: #333533;
+    text-align: center;
+    padding-top: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+}
+.text .poppins_medium{
+    font-size: 20px;
+    color: white;
+}
+.left-div{
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+}
+.right-div{
+    width: 100%;
+    height: auto;
+    padding-right: 60px;
+    // background-color: blue;
+}
+.left-div .poppins_medium{
+    font-size: 20px;
+    color: black;
+    padding-left: 100px;
+}
+.left-div .poppins_regular{
+    font-size: 15px;
+    color: #707070;
+    padding-left: 100px;
+    
+
+}
+.right-div .poppins_medium{
+    font-size: 14px;
+    color: black;
+    padding-left: 72px;
+    
+}
+.srch-box{
+    border:none;
+background-color:#EFEFEF;
+border-radius: 6px;
+width: 59%;
+padding-left: 20px;
+height: 25px;
+}
+.save-btn{
+    background-color: #333533;
+    border-radius: 5px;
+    width: 240px;
+    height: 43px;
+    color: white;
+    margin-right: 25px;
+}
+.save-btn .poppins_semibold{
+    font-size: 16px;
+    color: white;
+   
+}
+
+
+
+
+
+
+
+.container{
+    width: 100%;
+    height:540px;
+    // background-color: rebeccapurple;
+}
+
+// .container-fluid{
+//     height:600px;
+//     background-color: blueviolet;
+//     width: 100%;
+//     // margin-left: auto;
+//     // margin-right: auto;
+// }
+
+// .text{
+//     width: 100%;
+//     height: 40px;
+//     background-color: black
+// }
+
+
+// .title{
+//     margin-top: 30px;
+//     width:200px;
+//     height: auto;
+// background-color:#333533;
+// border-top-right-radius: 20px;
+// border-bottom-right-radius: 20px;
+// text-align: center;
+// }
+// .title .poppins_medium{
+//     color: white;
+//     font-size: 20px;
+//     padding-top: 10px;
+// }
+// .detail{
+//     // background-color: chartreuse;
+//     width: 100%;
+//     height: auto;
+// }
+// .details .poppins_medium{
+//     font-size: 16px;
+// }
+// .detail .poppins_medium{
+//     color: black;
+//     font-size: 19px;
+// }
+// .detail{
+//     padding-left: 56px;
+//     padding-top: 30px;
+// }
+// .detail .poppins_regular{
+//     color:#707070;
+//     font-size: 14px;
+// }
+// .first-placeholder{
+    
+//     background-color: #EFEFEF;
+//     border-radius: 7px;
+//     border: 0px solid #afaaaa;
+// font-size: 12px;
+// width: 246px;
+// height: 30px;
+// }
+// .second-placeholder{
+//     background-color: #EFEFEF;
+//     border-radius: 7px;
+//     border: 0px solid #afaaaa;
+// font-size: 12px;
+// width: 246px;
+// height: 30px;
+// }
+// .button{
+//     width: 246px;
+//     height: 43px;
+//     background-color: #333533;
+//     color: white;
+//     font-size: 15px;
+//     border-radius: 5px;
+// }
