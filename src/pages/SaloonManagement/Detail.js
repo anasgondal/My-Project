@@ -9,7 +9,7 @@ class Detail extends Component {
     constructor(props) {
         super(props);
         this.state = {
-
+        
 
         };
 
@@ -27,7 +27,11 @@ class Detail extends Component {
 
     }
 
-
+    toogleModal = ()=>{
+        this.setState({
+         CategoryModal:!this.state.CategoryModal
+        })
+     }
 
 
 
@@ -45,7 +49,7 @@ class Detail extends Component {
 
         return (
             
-           
+            
         <div className="detail-section">
             <div className="container p-0">
             <div className="col-md-12 p-0 pt-4">
@@ -169,6 +173,7 @@ class Detail extends Component {
 
             </div>
         </div>
+        
     )
 }
 
