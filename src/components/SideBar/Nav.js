@@ -83,12 +83,43 @@ class Nav extends Component {
              <p className="poppins_regular">Product</p>
            </Link>
          </li>
-         <li className={location.pathname === '/onlineapartment' ? 'active' : null}>
-          <Link to="/onlineapartment" >
-            <i ><img src={location.pathname === '/onlineapartment' ? AddNewBookActive : AddNewBook}></img> </i>
+         <li className={location.pathname === '/online/appointment' ? 'active' : null}>
+          <Link to="/online/appointment" >
+            <i ><img src={location.pathname === '/online/appointment' ? AddNewBookActive : AddNewBook}></img> </i>
              <p className="poppins_regular">Online Appointments</p>
            </Link>
          </li>
+         <li className="heading">
+          <span className="poppins_semibold" >Online Purchases</span>
+         </li>
+         <li className={location.pathname === '/selling/history' ? 'active' : null}>
+          <Link to="/selling/history" >
+            <i ><img src={location.pathname === '/selling/history' ? AddNewBookActive : AddNewBook}></img> </i>
+             <p className="poppins_regular">Selling History</p>
+           </Link>
+         </li>
+         <li className={location.pathname === '/generate/vouchers' ? 'active' : null}>
+          <Link to="/generate/vouchers" >
+            <i ><img src={location.pathname === '/generate/vouchers' ? AddNewBookActive : AddNewBook}></img> </i>
+             <p className="poppins_regular">Generate Vouchers</p>
+           </Link>
+         </li>
+         <li className={location.pathname === '/reports' ? 'active' : null}>
+          <Link to="/reports" >
+            <i ><img src={location.pathname === '/reports' ? AddNewBookActive : AddNewBook}></img> </i>
+             <p className="poppins_regular">Reports</p>
+           </Link>
+         </li>
+         <li className="heading">
+          <span className="poppins_semibold" >Queries & Support</span>
+         </li>
+         <li className={location.pathname === '/send/message' ? 'active' : null}>
+          <Link to="/send/message" >
+            <i ><img src={location.pathname === '/send/message' ? AddNewBookActive : AddNewBook}></img> </i>
+             <p className="poppins_regular">Send Message</p>
+           </Link>
+         </li>
+         
 
         
          

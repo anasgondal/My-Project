@@ -20,7 +20,11 @@ import CreateFundraising from '../CreateFundraising/CreateFundraising'
 
 
 import Detail from '../SaloonManagement/Detail'
-import OnlineApartment from '../SaloonManagement/OnlineApartment'
+import OnlineAppointment from '../SaloonManagement/OnlineAppointment'
+import SellingHistory from '../SaloonManagement/SellingHistory'
+import GenerateVouchers from '../SaloonManagement/GenerateVouchers'
+import SendMessage from '../SaloonManagement/SendMessage'
+import Reports from '../SaloonManagement/Reports'
 import Product from '../SaloonManagement/product'
 import Service from '../SaloonManagement/Service'
 import PrivateRoute from '../../utils/PrivateRoute';
@@ -53,7 +57,11 @@ const Main = ({
           <PrivateRoute   exact path="/detail" component={Detail} /> 
           <PrivateRoute   exact path="/product" component={Product} /> 
           <PrivateRoute   exact path="/service" component={Service} /> 
-          <PrivateRoute   exact path="/onlineapartment" component={OnlineApartment} /> 
+          <PrivateRoute   exact path="/online/appointment" component={OnlineAppointment} /> 
+          <PrivateRoute   exact path="/selling/history" component={SellingHistory} /> 
+          <PrivateRoute   exact path="/generate/vouchers" component={GenerateVouchers} /> 
+          <PrivateRoute   exact path="/reports" component={Reports} />
+          <PrivateRoute   exact path="/send/message" component={SendMessage} /> 
 
 
           

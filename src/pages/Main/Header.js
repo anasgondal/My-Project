@@ -8,7 +8,7 @@ import { logoutUser, } from '../../store/actions/authActions';
  import notification from '../../assets/images/header/notification.svg'
  import name from '../../assets/images/header/name.svg'
  import { Link, withRouter } from 'react-router-dom';
-
+import rose from '../../assets/images/Users/rose.png'
 
 class Header extends Component {
   constructor(props) {
@@ -50,7 +50,9 @@ class Header extends Component {
   
         
      
-
+          <div className="rose-icon">
+          <img src={rose}/> <span className="header-text poppins_semibold">Welcome Rose Beauty Parlor's Dashboard</span>
+          </div>
         <Nav className="nav-right">
             
      

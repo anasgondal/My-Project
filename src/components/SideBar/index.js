@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
-import Logo from '../../assets/images/CreateGrants/Logo.png'
+import Logo from '../../assets/images/CreateGrants/logo.png'
  
  
 import Nav from './Nav';

@@ -9,7 +9,7 @@ import circlelogo from '../../assets/images/Users/seat.png'
 import search from '../../assets/images/Users/search.png'
 import print from '../../assets/images/Users/print.png'
 import empty from '../../assets/images/empty.png'
-class product extends Component {
+class OnlineAppointment extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -69,91 +69,67 @@ centered
 
 <div className="container p-0">
     <div className="row ">
-        <div className="col-md-10 ">
+        <div className="col-md-5 ">
             <div className="modal-heading">
-            <p className="poppins_medium ">Service Details <p className="poppins_regular">About salon service detail</p></p>  
+            <p className="poppins_medium ">Appointment Details <p className="poppins_regular">Customer details of Appintment</p></p>  
             </div>
         </div>
-    <div className="col-md-2">
-    <button className="logout-button"onClick={() => this.toogleModal()}>X</button>
+        <div className="col-md-5 ">
+            <div className="modal-heading">
+            <p className="poppins_medium ">Reply <p className="poppins_regular">Manage Appoint Details</p></p>  
+            </div>
+        </div>
+    <div className="col-md-1">
+    <button className="cross-button"onClick={() => this.toogleModal()}>X</button>
     </div>
     </div>
 
     <div className="row m-0">
-    <div className="col-md-6 modal-div ">
+    <div className="col-md-7 modal-div ">
              <div className="row ">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Product ID  
+                 <div className="col-md-5 text-right">
+                 <p className="poppins_medium">Appointment  ID  
              </p>
                  </div>
-                 <div className="col-md-8">
+                 <div className="col-md-7">
                  <input className="search-box" type="search" placeholder="0000184593"></input>
                  </div>
              </div>
             
              <div className="row mt-3">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Name 
+                 <div className="col-md-5 text-right">
+                 <p className="poppins_medium"> Person Name
              </p>
                  </div>
-                 <div className="col-md-8">
-                 <input className="search-box2" type="search" placeholder="Nail Polish "></input>
+                 <div className="col-md-7">
+                 <input className="search-box" type="search" placeholder="Mereen"></input>
                  </div>
              </div>
             
              <div className="row mt-3">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Brand Name
+                 <div className="col-md-5 text-right">
+                 <p className="poppins_medium"> Required Service 
              </p>
                  </div>
-                 <div className="col-md-8 button">
-                 <select className="search-box2" >
-                     <option></option>
-                     
-                 </select>
+                 <div className="col-md-7 button">
+                 <input className="search-box" type="search" placeholder="Bridal Makeup"></input>
                  </div>
              </div>
     
              
              <div className="row mt-3">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Category
+                 <div className="col-md-5 text-right">
+                 <p className="poppins_medium">     Date & Time
              </p>
                  </div>
-                 <div className="col-md-8">
-                 <select className="search-box2" >
-                     <option>Makeup</option>
-                     
-                 </select>
+                 <div className="col-md-7">
+                 <input className="search-box" type="search" placeholder=" 22/02/2021, 11:00 PM"></input>
                  </div>
              </div>
 
-             <div className="row mt-3">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Sub Category
-             </p>
-                 </div>
-                 <div className="col-md-8">
-                 <select className="search-box2" >
-                     <option>Hairs</option>
-                     
-                 </select>
-                 </div>
-             </div>
+             
 
-             <div className="row mt-3">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Sub Category
-             </p>
-                 </div>
-                 <div className="col-md-8">
-                 <select className="search-box2" >
-                     <option>Hair Styling</option>
-                     
-                 </select>
-                 </div>
-             </div>
-
+            
              
 
     </div>
@@ -167,59 +143,42 @@ centered
 
 
 
-    <div className="col-md-6 modal-div ">
-    <div className="row mt-3">
-                 <div className="col-md-4 text-right">
+    <div className="col-md-5 modal-div ">
+    <div className="row ">
+                 <div className="col-md-5 text-right">
                  <p className="poppins_medium"> Price</p>
                  </div>
-                 <div className="col-md-8">
+                 <div className="col-md-7">
                  <input className="search-box2" type="search" placeholder="2,000 PKR"></input>
                  </div>
+                 
              </div>
             
              <div className="row mt-3">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Discounted Price
+                 <div className="col-md-5 text-right">
+                 <p className="poppins_medium"> Date & Time
              </p>
                  </div>
-                 <div className="col-md-8">
-                 <input className="search-box2" type="search" placeholder="1,500 PKR"></input>
+                 <div className="col-md-7">
+                 <input className="search-box2" type="search" placeholder="If Change"></input>
                  </div>
+                 
              </div>
             
-             <div className="row mt-3">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Status
-             </p>
-                 </div>
-                 <div className="col-md-8 button">
-                 <input className="search-box poppins_medium" type="search" placeholder="Active"></input>
-                     
-                 </div>
-             </div>
-    
-             
+            
+             <div className="col-md-12  pt-4">
+            <button className=" poppins_semibold update-btn">Send Update</button>
+        </div>
+        <div className="col-md-12 anas  pt-4">
+            <button className=" poppins_semibold update update-btn">Cancel</button>
+        </div>
 
-             <div className="row mt-3">
-                 <div className="col-md-4 text-right">
-                 <p className="poppins_medium"> Service Image
-             </p>
-                 </div>
-                 <div className="col-md-8 image-section">
-                 <div className="image-sec"> 
-                 <div className="img-inner">
-                     {/* <img className="image-logo" src={image}/> */}
-                 </div>
-                 <button className="add-bttn poppins_semibold">UPLOAD FILE</button></div>
-                 </div>
-             </div>
+             
 
     </div>
 
 
-    <div className="col-md-12 text-right pt-4">
-            <button className=" poppins_semibold sve-btn">Save Information</button>
-        </div>
+    
 
 
 
@@ -284,24 +243,23 @@ centered
                     <div className="container p-0">
                         <div className="col-md-12 p-0">
                             <div className="heading">
-                                <p className="poppins_medium">All Services Information <p className="poppins_regular">All your Salon online services</p></p>
+                                <p className="poppins_medium">All Appointment Information<p className="poppins_regular">All your Appointment  info</p></p>
                                 <table className="table table-hover thead-primary ">
                                     <thead>
                                         <tr>
 
                                             <th scope="col table_header poppins_medium" ><img className="empty-box"src={empty}/></th>
                                             <th scope="col table_header poppins_medium"><select className=" poppins_semibold select">
-                                                <option>Product Name</option></select></th>
-                                            <th scope="col table_header poppins_medium"> Brand Name</th>
+                                                <option>Appointment ID</option></select></th>
+                                            <th scope="col table_header poppins_medium"> Person Name</th>
 
                                             <th scope="col table_header poppins_medium"><select className=" poppins_semibold select">
-                                                <option>Price</option></select> </th>
+                                                <option>Required Service </option></select> </th>
                                             <th scope="col table_header poppins_medium"><select className=" poppins_semibold select">
-                                                <option>Discount %</option></select></th>
+                                                <option>Date & Time</option></select></th>
 
-                                            <th scope="col table_header poppins_medium"> <select className=" poppins_semibold select">
-                                                <option>Category</option></select> </th>
-                                            <th scope="col table_header poppins_medium">Status </th>
+                                            <th scope="col table_header poppins_medium"></th>
+                                            <th scope="col table_header poppins_medium">Actions </th>
                                             <th scope="col table_header poppins_medium">View </th>
 
                                         </tr>
@@ -312,14 +270,12 @@ centered
 
                                             <td><img className="empty-box2"src={empty}/></td>
 
-                                            <td>Matte Liquid Lipstick</td>
-
-                                            <td>Matte Liquid Lipstick</td>
-                                            <td>2,400 PKR</td>
-                                            <td>60%</td>
-                                            <td>Makeup | Lips | Lipstick </td>
-                                            <td ><img className="slide" src={slide}/></td>
-
+                                            <td>Rose-123214</td>
+                                            <td>Mahnoor</td>
+                                            <td>Bridal Makeup</td>
+                                            <td> 22/02/2021, 11:00 PM</td>
+                                            <td></td>
+                                            <td className="poppins_regular" ><button className="reply-btn ">Reply</button></td>
                                             <td>
                                             <img className="slide" src={eye}/>
                                             </td>
@@ -330,13 +286,13 @@ centered
 
 <td><img className="empty-box2"src={empty}/></td>
 
-<td>MAC Lipstick</td>
+<td>Rose-123214</td>
 
-<td>By Mac</td>
+<td>Zainab</td>
+<td>Bridal Makeup</td>
+<td> 23/02/2021, 11:00 PM</td>
 <td></td>
-<td>60 %</td>
-<td>Makeup | Lips | Lipstick  </td>
-<td ><img className="slide" src={slide}/></td>
+<td className="poppins_regular" ><button className="reply-btn ">Reply</button></td>
 
 <td>
 <img className="slide" src={eye}/>
@@ -349,15 +305,14 @@ centered
 
 <td><img className="empty-box2"src={empty}/></td>
 
-<td>O.P.I Nail Lacquer</td>
+<td>Rose-123214</td>
 
-<td>By Lacquer</td>
+<td>Neha</td>
 
-<td>1,500 PKR</td>
-<td> 60%</td>
-<td>Makeup | Nail | Nail Polish  </td>
-<td ><img className="slide" src={slide}/></td>
-
+<td>Bridal Makeup</td>
+<td> 24/02/2021, 11:00 PM</td>
+<td></td>
+<td className="poppins_regular" ><button className="reply-btn ">Reply</button></td>
 <td>
 <img className="slide" src={eye}/>
 </td>
@@ -424,7 +379,7 @@ centered
 
 }
 
-product.propTypes = {
+OnlineAppointment.propTypes = {
 
 };
 
@@ -439,4 +394,4 @@ const mapDispatchToProps = ({
 
 
 })
-export default connect(mapStateToProps, mapDispatchToProps)(product);
+export default connect(mapStateToProps, mapDispatchToProps)(OnlineAppointment);

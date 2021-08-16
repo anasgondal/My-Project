@@ -201,11 +201,11 @@
     }
 
 
-    .logout-button{
+    .cross-button{
         border:none;
         position: absolute;
-        right: 28px;
-        top:9px;
+        left: 100%;
+        top:35px;
         border-radius: 90px;
         background-color: #FF5C8A;
         color: white;
@@ -321,15 +321,34 @@
             justify-content: center;
             align-items: center;
         }
-        .sve-btn{
+        .update-butn{
             background-color: #333533;
             border-radius: 5px;
             width: 200px;
             height: 43px;
             color: white;
-            margin-right: 25px;
+            margin-top:40px;
+            margin-left: 80px;
+            
+            
         }
-        .sve-btn .poppins_semibold{
+        .update-butn .poppins_semibold{
+            font-size: 16px;
+            color: white;
+           
+        }
+        .cancel-btn{
+            background-color: #333533;
+            border-radius: 5px;
+            width: 200px;
+            height: 43px;
+            color: white;
+            
+            margin-left: 150px;
+            
+            
+        }
+        .cancel-btn .poppins_semibold{
             font-size: 16px;
             color: white;
            
